@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'AmpedeFxPlug' target in the 'AmpedeFxPlug' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#import "DSMacros.h"

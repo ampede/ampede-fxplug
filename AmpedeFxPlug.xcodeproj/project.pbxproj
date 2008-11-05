@@ -1,0 +1,1640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC2EF530486A6940098B216 /* AmpedeFxPlug-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* AmpedeFxPlug-InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		8E0041900B2BE6F700DA0C7B /* AmpedeGeneratorFxPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00418C0B2BE6F600DA0C7B /* AmpedeGeneratorFxPlug.m */; };
+		8E0041940B2BE73D00DA0C7B /* FxPlug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0041920B2BE73D00DA0C7B /* FxPlug.framework */; };
+		8E0041950B2BE73D00DA0C7B /* PluginManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0041930B2BE73D00DA0C7B /* PluginManager.framework */; };
+		8E0041970B2BE77E00DA0C7B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0041960B2BE77E00DA0C7B /* ApplicationServices.framework */; };
+		8E0042770B2BE88A00DA0C7B /* AmpedeFilterFxPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0042750B2BE88A00DA0C7B /* AmpedeFilterFxPlug.m */; };
+		8E00427D0B2BE89500DA0C7B /* AmpedeTransitionFxPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00427B0B2BE89500DA0C7B /* AmpedeTransitionFxPlug.m */; };
+		8E0043550B2CD79E00DA0C7B /* PDFLink.plugin in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 8E0043490B2CD70700DA0C7B /* PDFLink.plugin */; };
+		8E00445C0B2CDA4100DA0C7B /* AmpedeFxPlug.framework in Copy Shared Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* AmpedeFxPlug.framework */; };
+		8E0045610B2CE54700DA0C7B /* AmpedeBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0045600B2CE54700DA0C7B /* AmpedeBase.framework */; };
+		8E0045770B2CE56300DA0C7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		8E00457A0B2CE56B00DA0C7B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0041960B2BE77E00DA0C7B /* ApplicationServices.framework */; };
+		8E0046360B2E688F00DA0C7B /* AmpedeTestPlugIn.h in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 8E0046340B2E688F00DA0C7B /* AmpedeTestPlugIn.h */; };
+		8E0046370B2E688F00DA0C7B /* AmpedeTestPlugIn.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E0046350B2E688F00DA0C7B /* AmpedeTestPlugIn.mm */; };
+		8E0046470B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.h in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 8E0046450B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.h */; };
+		8E0046480B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0046460B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.m */; };
+		8E0046890B2E731A00DA0C7B /* AmpedeTestProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0046880B2E731A00DA0C7B /* AmpedeTestProduct.m */; };
+		8E0046AA0B2F627800DA0C7B /* AmpedeBaseEffectFxPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00466F0B2E723C00DA0C7B /* AmpedeBaseEffectFxPlug.m */; };
+		8E00498A0B2FFD2E00DA0C7B /* AmpedeTestProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0046880B2E731A00DA0C7B /* AmpedeTestProduct.m */; };
+		8E00498D0B2FFD6500DA0C7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		8E00498E0B2FFD6800DA0C7B /* PluginManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0041930B2BE73D00DA0C7B /* PluginManager.framework */; };
+		8E0049DE0B3000AB00DA0C7B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0046C30B2F6CCA00DA0C7B /* Security.framework */; };
+		8E004A250B30012000DA0C7B /* AmpedeFxPlug.framework in Copy Shared Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* AmpedeFxPlug.framework */; };
+		8E004AD30B3018CA00DA0C7B /* Test.plugin in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 8E0048B80B2F9C3600DA0C7B /* Test.plugin */; };
+		8E004AD80B3018EC00DA0C7B /* AmpedeTestPlugIn.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E0046350B2E688F00DA0C7B /* AmpedeTestPlugIn.mm */; };
+		8E004ADA0B3018F800DA0C7B /* AmpedeTestPlugIn.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E0046550B2E6F0000DA0C7B /* AmpedeTestPlugIn.strings */; };
+		8E004B180B301AD000DA0C7B /* AmpedeFxPlug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* AmpedeFxPlug.framework */; };
+		8E004B1B0B301AD700DA0C7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		8E004B1C0B301ADF00DA0C7B /* FxPlug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0041920B2BE73D00DA0C7B /* FxPlug.framework */; };
+		8E004B300B301B9E00DA0C7B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E004B2F0B301B9E00DA0C7B /* OpenGL.framework */; };
+		8E004C0B0B30D13200DA0C7B /* NSObject+AmpedeFxPlugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0046460B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.m */; };
+		8E004C3C0B30D30600DA0C7B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E004C270B30D26300DA0C7B /* Localizable.strings */; };
+		8E004C8A0B30DD8C00DA0C7B /* AmpedeProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0046940B2E736F00DA0C7B /* AmpedeProductManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E0045210B2CE2B100DA0C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E00451D0B2CE2B100DA0C7B /* AmpedeBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = AmpedeBase;
+		};
+		8E0045CF0B2CEB1E00DA0C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E00433C0B2CD6A200DA0C7B;
+			remoteInfo = "AmpedePDF Product App";
+		};
+		8E0045D30B2CEB2300DA0C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0043480B2CD70700DA0C7B;
+			remoteInfo = "AmpedePDF Plugin";
+		};
+		8E0045D50B2CEB3700DA0C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = "AmpedeFxPlug Framework";
+		};
+		8E0045D70B2CEB6700DA0C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0045AA0B2CE83600DA0C7B;
+			remoteInfo = "AmpedePDF Product LicenseControl";
+		};
+		8E0045D90B2CEB7C00DA0C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E00451D0B2CE2B100DA0C7B /* AmpedeBase.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = AmpedeBase;
+		};
+		8E004A210B3000F500DA0C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = "AmpedeFxPlug Framework";
+		};
+		8E004AD40B3018D400DA0C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0048B70B2F9C3600DA0C7B;
+			remoteInfo = "Test PlugIn";
+		};
+		8E004ADB0B30191B00DA0C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = "AmpedeFxPlug Framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E0043530B2CD77C00DA0C7B /* Copy Plugins */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8E0043550B2CD79E00DA0C7B /* PDFLink.plugin in Copy Plugins */,
+				8E0046360B2E688F00DA0C7B /* AmpedeTestPlugIn.h in Copy Plugins */,
+				8E0046470B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.h in Copy Plugins */,
+			);
+			name = "Copy Plugins";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0044590B2CDA2400DA0C7B /* Copy Shared Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 11;
+			files = (
+				8E00445C0B2CDA4100DA0C7B /* AmpedeFxPlug.framework in Copy Shared Frameworks */,
+			);
+			name = "Copy Shared Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E004A230B30010300DA0C7B /* Copy Shared Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 11;
+			files = (
+				8E004A250B30012000DA0C7B /* AmpedeFxPlug.framework in Copy Shared Frameworks */,
+			);
+			name = "Copy Shared Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E004AD10B3018B700DA0C7B /* Copy PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8E004AD30B3018CA00DA0C7B /* Test.plugin in Copy PlugIns */,
+			);
+			name = "Copy PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = "English.lproj/AmpedeFxPlug-InfoPlist.strings"; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* AmpedeFxPlug_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmpedeFxPlug_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* AmpedeFxPlug-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AmpedeFxPlug-Info.plist"; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* AmpedeFxPlug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmpedeFxPlug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0041890B2BE6F600DA0C7B /* AmpedeFxPlug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AmpedeFxPlug.h; sourceTree = "<group>"; };
+		8E00418B0B2BE6F600DA0C7B /* AmpedeGeneratorFxPlug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AmpedeGeneratorFxPlug.h; sourceTree = "<group>"; };
+		8E00418C0B2BE6F600DA0C7B /* AmpedeGeneratorFxPlug.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AmpedeGeneratorFxPlug.m; sourceTree = "<group>"; };
+		8E0041920B2BE73D00DA0C7B /* FxPlug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FxPlug.framework; path = /Library/Frameworks/FxPlug.framework; sourceTree = "<absolute>"; };
+		8E0041930B2BE73D00DA0C7B /* PluginManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PluginManager.framework; path = /Library/Frameworks/PluginManager.framework; sourceTree = "<absolute>"; };
+		8E0041960B2BE77E00DA0C7B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		8E0042740B2BE88A00DA0C7B /* AmpedeFilterFxPlug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmpedeFilterFxPlug.h; sourceTree = "<group>"; };
+		8E0042750B2BE88A00DA0C7B /* AmpedeFilterFxPlug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmpedeFilterFxPlug.m; sourceTree = "<group>"; };
+		8E00427A0B2BE89500DA0C7B /* AmpedeTransitionFxPlug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmpedeTransitionFxPlug.h; sourceTree = "<group>"; };
+		8E00427B0B2BE89500DA0C7B /* AmpedeTransitionFxPlug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmpedeTransitionFxPlug.m; sourceTree = "<group>"; };
+		8E00433D0B2CD6A200DA0C7B /* PDFLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E00433F0B2CD6A200DA0C7B /* PDFLink_App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PDFLink_App-Info.plist"; sourceTree = "<group>"; };
+		8E0043490B2CD70700DA0C7B /* PDFLink.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFLink.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E00434A0B2CD70700DA0C7B /* PDFLink_PlugIn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PDFLink_PlugIn-Info.plist"; sourceTree = "<group>"; };
+		8E00451D0B2CE2B100DA0C7B /* AmpedeBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AmpedeBase.xcodeproj; path = ../AmpedeBase/AmpedeBase.xcodeproj; sourceTree = SOURCE_ROOT; };
+		8E0045600B2CE54700DA0C7B /* AmpedeBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmpedeBase.framework; path = ../Build/Debug/AmpedeBase.framework; sourceTree = SOURCE_ROOT; };
+		8E0045910B2CE67A00DA0C7B /* PDFLink.fxplug */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFLink.fxplug; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0045920B2CE67A00DA0C7B /* PDFLink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PDFLink-Info.plist"; sourceTree = "<group>"; };
+		8E0045AB0B2CE83600DA0C7B /* PDFLink.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFLink.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0045AC0B2CE83600DA0C7B /* PDFLink_Bundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PDFLink_Bundle-Info.plist"; sourceTree = "<group>"; };
+		8E0046340B2E688F00DA0C7B /* AmpedeTestPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmpedeTestPlugIn.h; sourceTree = "<group>"; };
+		8E0046350B2E688F00DA0C7B /* AmpedeTestPlugIn.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AmpedeTestPlugIn.mm; sourceTree = "<group>"; };
+		8E0046450B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AmpedeFxPlugAdditions.h"; sourceTree = "<group>"; };
+		8E0046460B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AmpedeFxPlugAdditions.m"; sourceTree = "<group>"; };
+		8E0046560B2E6F0000DA0C7B /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/AmpedeTestPlugIn.strings; sourceTree = "<group>"; };
+		8E00466E0B2E723C00DA0C7B /* AmpedeBaseEffectFxPlug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmpedeBaseEffectFxPlug.h; sourceTree = "<group>"; };
+		8E00466F0B2E723C00DA0C7B /* AmpedeBaseEffectFxPlug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmpedeBaseEffectFxPlug.m; sourceTree = "<group>"; };
+		8E0046870B2E731A00DA0C7B /* AmpedeTestProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmpedeTestProduct.h; sourceTree = "<group>"; };
+		8E0046880B2E731A00DA0C7B /* AmpedeTestProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmpedeTestProduct.m; sourceTree = "<group>"; };
+		8E0046930B2E736F00DA0C7B /* AmpedeProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmpedeProductManager.h; sourceTree = "<group>"; };
+		8E0046940B2E736F00DA0C7B /* AmpedeProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmpedeProductManager.m; sourceTree = "<group>"; };
+		8E0046C30B2F6CCA00DA0C7B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = ../../../System/Library/Frameworks/Security.framework; sourceTree = SOURCE_ROOT; };
+		8E0047000B2F80D100DA0C7B /* AmpedeFxPlug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AmpedeFxPlug.xcconfig; sourceTree = "<group>"; };
+		8E0047C80B2F895600DA0C7B /* Test_PlugIn-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Test_PlugIn-Info.plist"; sourceTree = "<group>"; };
+		8E0047D70B2F8A1C00DA0C7B /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = "English.lproj/PDFLink-InfoPlist.strings"; sourceTree = "<group>"; };
+		8E0047DE0B2F8A6B00DA0C7B /* AmpedePDFLinkProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmpedePDFLinkProduct.h; sourceTree = "<group>"; };
+		8E0047DF0B2F8A6B00DA0C7B /* AmpedePDFLinkProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmpedePDFLinkProduct.m; sourceTree = "<group>"; };
+		8E0047E90B2F8B4900DA0C7B /* Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		8E0047F00B2F8B7000DA0C7B /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = "English.lproj/Test-InfoPlist.strings"; sourceTree = "<group>"; };
+		8E0048B30B2F9C1C00DA0C7B /* Test.fxplug */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.fxplug; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0048B80B2F9C3600DA0C7B /* Test.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0048C60B2F9C5200DA0C7B /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0048C80B2F9C5200DA0C7B /* Test_App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Test_App-Info.plist"; sourceTree = "<group>"; };
+		8E0048D20B2F9C6500DA0C7B /* Test.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0048D30B2F9C6600DA0C7B /* Test_Bundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Test_Bundle-Info.plist"; sourceTree = "<group>"; };
+		8E004B2F0B301B9E00DA0C7B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../System/Library/Frameworks/OpenGL.framework; sourceTree = SOURCE_ROOT; };
+		8E004B6E0B30C40600DA0C7B /* DSMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DSMacros.h; path = ../AmpedeBase/DSMacros.h; sourceTree = SOURCE_ROOT; };
+		8E004C210B30D24100DA0C7B /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8E004CE70B30F74600DA0C7B /* AmpedeFxPlugProduct.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AmpedeFxPlugProduct.xcconfig; sourceTree = "<group>"; };
+		8E004DDE0B322FE500DA0C7B /* AmpedeFxPlugPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AmpedeFxPlugPlugIn.xcconfig; sourceTree = "<group>"; };
+		8E004E030B32351D00DA0C7B /* AmpedeTestPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AmpedeTestPlugIn.xcconfig; sourceTree = "<group>"; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				8E0041940B2BE73D00DA0C7B /* FxPlug.framework in Frameworks */,
+				8E0041950B2BE73D00DA0C7B /* PluginManager.framework in Frameworks */,
+				8E0041970B2BE77E00DA0C7B /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E00433B0B2CD6A200DA0C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0045770B2CE56300DA0C7B /* Cocoa.framework in Frameworks */,
+				8E00457A0B2CE56B00DA0C7B /* ApplicationServices.framework in Frameworks */,
+				8E0045610B2CE54700DA0C7B /* AmpedeBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0043470B2CD70700DA0C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E00458F0B2CE67A00DA0C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0045A90B2CE83600DA0C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048B10B2F9C1C00DA0C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E00498D0B2FFD6500DA0C7B /* Cocoa.framework in Frameworks */,
+				8E0049DE0B3000AB00DA0C7B /* Security.framework in Frameworks */,
+				8E00498E0B2FFD6800DA0C7B /* PluginManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048B60B2F9C3600DA0C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E004B1B0B301AD700DA0C7B /* Cocoa.framework in Frameworks */,
+				8E004B1C0B301ADF00DA0C7B /* FxPlug.framework in Frameworks */,
+				8E004B180B301AD000DA0C7B /* AmpedeFxPlug.framework in Frameworks */,
+				8E004B300B301B9E00DA0C7B /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048C40B2F9C5200DA0C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048D00B2F9C6500DA0C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Build Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E0045C20B2CEAA500DA0C7B /* PlugIns */,
+				8E0049010B2F9F6000DA0C7B /* Products */,
+				8DC2EF5B0486A6940098B216 /* AmpedeFxPlug.framework */,
+			);
+			name = "Build Products";
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* AmpedeFxPlug */ = {
+			isa = PBXGroup;
+			children = (
+				8E0047000B2F80D100DA0C7B /* AmpedeFxPlug.xcconfig */,
+				8E004CE70B30F74600DA0C7B /* AmpedeFxPlugProduct.xcconfig */,
+				8E004DDE0B322FE500DA0C7B /* AmpedeFxPlugPlugIn.xcconfig */,
+				8E004B6E0B30C40600DA0C7B /* DSMacros.h */,
+				8E00478E0B2F83E600DA0C7B /* PlugIns */,
+				8E00478B0B2F83D100DA0C7B /* Products */,
+				08FB77AEFE84172EC02AAC07 /* AmpedeFxPlug.framework */,
+				8E0045C00B2CEA7000DA0C7B /* External Projects */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				8E0047030B2F80DD00DA0C7B /* Build Configurations */,
+				034768DFFF38A50411DB9C8B /* Build Products */,
+			);
+			name = AmpedeFxPlug;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* AmpedeFxPlug_Prefix.pch */,
+				8DC2EF5A0486A6940098B216 /* AmpedeFxPlug-Info.plist */,
+				089C1666FE841158C02AAC07 /* AmpedeFxPlug-InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* AmpedeFxPlug.framework */ = {
+			isa = PBXGroup;
+			children = (
+				8E0041890B2BE6F600DA0C7B /* AmpedeFxPlug.h */,
+				8E0046930B2E736F00DA0C7B /* AmpedeProductManager.h */,
+				8E0046940B2E736F00DA0C7B /* AmpedeProductManager.m */,
+				8E00466E0B2E723C00DA0C7B /* AmpedeBaseEffectFxPlug.h */,
+				8E00466F0B2E723C00DA0C7B /* AmpedeBaseEffectFxPlug.m */,
+				8E00418B0B2BE6F600DA0C7B /* AmpedeGeneratorFxPlug.h */,
+				8E00418C0B2BE6F600DA0C7B /* AmpedeGeneratorFxPlug.m */,
+				8E0042740B2BE88A00DA0C7B /* AmpedeFilterFxPlug.h */,
+				8E0042750B2BE88A00DA0C7B /* AmpedeFilterFxPlug.m */,
+				8E00427A0B2BE89500DA0C7B /* AmpedeTransitionFxPlug.h */,
+				8E00427B0B2BE89500DA0C7B /* AmpedeTransitionFxPlug.m */,
+				8E0046450B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.h */,
+				8E0046460B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.m */,
+				089C1665FE841158C02AAC07 /* Resources */,
+			);
+			name = AmpedeFxPlug.framework;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E004B2F0B301B9E00DA0C7B /* OpenGL.framework */,
+				8E0046C30B2F6CCA00DA0C7B /* Security.framework */,
+				8E0045600B2CE54700DA0C7B /* AmpedeBase.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+				8E0041960B2BE77E00DA0C7B /* ApplicationServices.framework */,
+				8E0041920B2BE73D00DA0C7B /* FxPlug.framework */,
+				8E0041930B2BE73D00DA0C7B /* PluginManager.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8E00451E0B2CE2B100DA0C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E0045220B2CE2B100DA0C7B /* AmpedeBase.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E0045C00B2CEA7000DA0C7B /* External Projects */ = {
+			isa = PBXGroup;
+			children = (
+				8E00451D0B2CE2B100DA0C7B /* AmpedeBase.xcodeproj */,
+			);
+			name = "External Projects";
+			sourceTree = "<group>";
+		};
+		8E0045C20B2CEAA500DA0C7B /* PlugIns */ = {
+			isa = PBXGroup;
+			children = (
+				8E0048B80B2F9C3600DA0C7B /* Test.plugin */,
+				8E0043490B2CD70700DA0C7B /* PDFLink.plugin */,
+			);
+			name = PlugIns;
+			sourceTree = "<group>";
+		};
+		8E0045C60B2CEAC400DA0C7B /* PDFLink */ = {
+			isa = PBXGroup;
+			children = (
+				8E0045910B2CE67A00DA0C7B /* PDFLink.fxplug */,
+				8E00433D0B2CD6A200DA0C7B /* PDFLink.app */,
+				8E0045AB0B2CE83600DA0C7B /* PDFLink.bundle */,
+			);
+			name = PDFLink;
+			sourceTree = "<group>";
+		};
+		8E00463A0B2E689500DA0C7B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				8E0046340B2E688F00DA0C7B /* AmpedeTestPlugIn.h */,
+				8E0046350B2E688F00DA0C7B /* AmpedeTestPlugIn.mm */,
+				8E0046550B2E6F0000DA0C7B /* AmpedeTestPlugIn.strings */,
+				8E0046570B2E6F2000DA0C7B /* Resources */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		8E0046570B2E6F2000DA0C7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E0047C80B2F895600DA0C7B /* Test_PlugIn-Info.plist */,
+				8E004E030B32351D00DA0C7B /* AmpedeTestPlugIn.xcconfig */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E00468E0B2E732700DA0C7B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				8E0046870B2E731A00DA0C7B /* AmpedeTestProduct.h */,
+				8E0046880B2E731A00DA0C7B /* AmpedeTestProduct.m */,
+				8E0047ED0B2F8B4F00DA0C7B /* Resources */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		8E0047030B2F80DD00DA0C7B /* Build Configurations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Build Configurations";
+			sourceTree = "<group>";
+		};
+		8E00478B0B2F83D100DA0C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E00468E0B2E732700DA0C7B /* Test */,
+				8E0047910B2F848A00DA0C7B /* PDFLink */,
+				8E0047940B2F849800DA0C7B /* LayerLink */,
+				8E00479D0B2F84C800DA0C7B /* ProPack */,
+				8E0047970B2F84A200DA0C7B /* WebLink */,
+				8E00479A0B2F84AB00DA0C7B /* RSSLink */,
+				8E0047A00B2F84E100DA0C7B /* WebPack */,
+				8E0047A30B2F84FC00DA0C7B /* PowerPack */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E00478E0B2F83E600DA0C7B /* PlugIns */ = {
+			isa = PBXGroup;
+			children = (
+				8E00463A0B2E689500DA0C7B /* Test */,
+				8E0047A80B2F85BF00DA0C7B /* PDFLink */,
+			);
+			name = PlugIns;
+			sourceTree = "<group>";
+		};
+		8E0047910B2F848A00DA0C7B /* PDFLink */ = {
+			isa = PBXGroup;
+			children = (
+				8E0047DE0B2F8A6B00DA0C7B /* AmpedePDFLinkProduct.h */,
+				8E0047DF0B2F8A6B00DA0C7B /* AmpedePDFLinkProduct.m */,
+				8E0047AE0B2F860D00DA0C7B /* Resources */,
+			);
+			name = PDFLink;
+			sourceTree = "<group>";
+		};
+		8E0047940B2F849800DA0C7B /* LayerLink */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LayerLink;
+			sourceTree = "<group>";
+		};
+		8E0047970B2F84A200DA0C7B /* WebLink */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WebLink;
+			sourceTree = "<group>";
+		};
+		8E00479A0B2F84AB00DA0C7B /* RSSLink */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RSSLink;
+			sourceTree = "<group>";
+		};
+		8E00479D0B2F84C800DA0C7B /* ProPack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ProPack;
+			sourceTree = "<group>";
+		};
+		8E0047A00B2F84E100DA0C7B /* WebPack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WebPack;
+			sourceTree = "<group>";
+		};
+		8E0047A30B2F84FC00DA0C7B /* PowerPack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PowerPack;
+			sourceTree = "<group>";
+		};
+		8E0047A80B2F85BF00DA0C7B /* PDFLink */ = {
+			isa = PBXGroup;
+			children = (
+				8E0047AB0B2F85E100DA0C7B /* Resources */,
+			);
+			name = PDFLink;
+			sourceTree = "<group>";
+		};
+		8E0047AB0B2F85E100DA0C7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E00434A0B2CD70700DA0C7B /* PDFLink_PlugIn-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E0047AE0B2F860D00DA0C7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E0045920B2CE67A00DA0C7B /* PDFLink-Info.plist */,
+				8E0047D90B2F8A2900DA0C7B /* PDFLink-InfoPlist.strings */,
+				8E00433F0B2CD6A200DA0C7B /* PDFLink_App-Info.plist */,
+				8E0045AC0B2CE83600DA0C7B /* PDFLink_Bundle-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E0047ED0B2F8B4F00DA0C7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E0047E90B2F8B4900DA0C7B /* Test-Info.plist */,
+				8E0047F40B2F8B7B00DA0C7B /* Test-InfoPlist.strings */,
+				8E0048C80B2F9C5200DA0C7B /* Test_App-Info.plist */,
+				8E0048D30B2F9C6600DA0C7B /* Test_Bundle-Info.plist */,
+				8E004C270B30D26300DA0C7B /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E0048A80B2F9AFE00DA0C7B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				8E0048B30B2F9C1C00DA0C7B /* Test.fxplug */,
+				8E0048C60B2F9C5200DA0C7B /* Test.app */,
+				8E0048D20B2F9C6500DA0C7B /* Test.bundle */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		8E0049010B2F9F6000DA0C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E0048A80B2F9AFE00DA0C7B /* Test */,
+				8E0045C60B2CEAC400DA0C7B /* PDFLink */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* AmpedeFxPlug Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "AmpedeFxPlug Framework" */;
+			buildPhases = (
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AmpedeFxPlug Framework";
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = AmpedeFxPlug;
+			productReference = 8DC2EF5B0486A6940098B216 /* AmpedeFxPlug.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E00433C0B2CD6A200DA0C7B /* PDFLink App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0043400B2CD6A300DA0C7B /* Build configuration list for PBXNativeTarget "PDFLink App" */;
+			buildPhases = (
+				8E0043390B2CD6A200DA0C7B /* Resources */,
+				8E00433A0B2CD6A200DA0C7B /* Sources */,
+				8E00433B0B2CD6A200DA0C7B /* Frameworks */,
+				8E0043530B2CD77C00DA0C7B /* Copy Plugins */,
+				8E0044590B2CDA2400DA0C7B /* Copy Shared Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0045D80B2CEB6700DA0C7B /* PBXTargetDependency */,
+			);
+			name = "PDFLink App";
+			productName = AmpedePDF;
+			productReference = 8E00433D0B2CD6A200DA0C7B /* PDFLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E0043480B2CD70700DA0C7B /* PDFLink PlugIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E00434C0B2CD70800DA0C7B /* Build configuration list for PBXNativeTarget "PDFLink PlugIn" */;
+			buildPhases = (
+				8E0043450B2CD70700DA0C7B /* Resources */,
+				8E0043460B2CD70700DA0C7B /* Sources */,
+				8E0043470B2CD70700DA0C7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0045D60B2CEB3700DA0C7B /* PBXTargetDependency */,
+			);
+			name = "PDFLink PlugIn";
+			productName = AmpedePDFPlugin;
+			productReference = 8E0043490B2CD70700DA0C7B /* PDFLink.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8E0045900B2CE67A00DA0C7B /* PDFLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0045930B2CE67B00DA0C7B /* Build configuration list for PBXNativeTarget "PDFLink" */;
+			buildPhases = (
+				8E00458D0B2CE67A00DA0C7B /* Resources */,
+				8E00458E0B2CE67A00DA0C7B /* Sources */,
+				8E00458F0B2CE67A00DA0C7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0045D00B2CEB1E00DA0C7B /* PBXTargetDependency */,
+				8E0045D40B2CEB2300DA0C7B /* PBXTargetDependency */,
+			);
+			name = PDFLink;
+			productName = "AmpedePDF FxPlug";
+			productReference = 8E0045910B2CE67A00DA0C7B /* PDFLink.fxplug */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8E0045AA0B2CE83600DA0C7B /* PDFLink Bundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0045AD0B2CE83700DA0C7B /* Build configuration list for PBXNativeTarget "PDFLink Bundle" */;
+			buildPhases = (
+				8E0045A70B2CE83600DA0C7B /* Resources */,
+				8E0045A80B2CE83600DA0C7B /* Sources */,
+				8E0045A90B2CE83600DA0C7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0045DA0B2CEB7C00DA0C7B /* PBXTargetDependency */,
+			);
+			name = "PDFLink Bundle";
+			productName = "AmpedePDF LicenseControl";
+			productReference = 8E0045AB0B2CE83600DA0C7B /* PDFLink.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8E0048B20B2F9C1C00DA0C7B /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0048BA0B2F9C3700DA0C7B /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				8E0048AF0B2F9C1C00DA0C7B /* Resources */,
+				8E004A230B30010300DA0C7B /* Copy Shared Frameworks */,
+				8E004AD10B3018B700DA0C7B /* Copy PlugIns */,
+				8E0048B00B2F9C1C00DA0C7B /* Sources */,
+				8E0048B10B2F9C1C00DA0C7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E004A220B3000F500DA0C7B /* PBXTargetDependency */,
+				8E004AD50B3018D400DA0C7B /* PBXTargetDependency */,
+			);
+			name = Test;
+			productName = Test;
+			productReference = 8E0048B30B2F9C1C00DA0C7B /* Test.fxplug */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8E0048B70B2F9C3600DA0C7B /* Test PlugIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0048BD0B2F9C3700DA0C7B /* Build configuration list for PBXNativeTarget "Test PlugIn" */;
+			buildPhases = (
+				8E0048B40B2F9C3600DA0C7B /* Resources */,
+				8E0048B50B2F9C3600DA0C7B /* Sources */,
+				8E0048B60B2F9C3600DA0C7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E004ADC0B30191B00DA0C7B /* PBXTargetDependency */,
+			);
+			name = "Test PlugIn";
+			productName = "Test PlugIn";
+			productReference = 8E0048B80B2F9C3600DA0C7B /* Test.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8E0048C50B2F9C5200DA0C7B /* Test App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0048C90B2F9C5300DA0C7B /* Build configuration list for PBXNativeTarget "Test App" */;
+			buildPhases = (
+				8E0048C20B2F9C5200DA0C7B /* Resources */,
+				8E0048C30B2F9C5200DA0C7B /* Sources */,
+				8E0048C40B2F9C5200DA0C7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test App";
+			productName = "Test App";
+			productReference = 8E0048C60B2F9C5200DA0C7B /* Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E0048D10B2F9C6500DA0C7B /* Test Bundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0048D40B2F9C6600DA0C7B /* Build configuration list for PBXNativeTarget "Test Bundle" */;
+			buildPhases = (
+				8E0048CE0B2F9C6500DA0C7B /* Resources */,
+				8E0048CF0B2F9C6500DA0C7B /* Sources */,
+				8E0048D00B2F9C6500DA0C7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Bundle";
+			productName = "Test Bundle";
+			productReference = 8E0048D20B2F9C6500DA0C7B /* Test.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "AmpedeFxPlug" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* AmpedeFxPlug */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Build Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8E00451E0B2CE2B100DA0C7B /* Products */;
+					ProjectRef = 8E00451D0B2CE2B100DA0C7B /* AmpedeBase.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8E0048B70B2F9C3600DA0C7B /* Test PlugIn */,
+				8E0043480B2CD70700DA0C7B /* PDFLink PlugIn */,
+				8DC2EF4F0486A6940098B216 /* AmpedeFxPlug Framework */,
+				8E0048B20B2F9C1C00DA0C7B /* Test */,
+				8E0048C50B2F9C5200DA0C7B /* Test App */,
+				8E0048D10B2F9C6500DA0C7B /* Test Bundle */,
+				8E0045900B2CE67A00DA0C7B /* PDFLink */,
+				8E00433C0B2CD6A200DA0C7B /* PDFLink App */,
+				8E0045AA0B2CE83600DA0C7B /* PDFLink Bundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8E0045220B2CE2B100DA0C7B /* AmpedeBase.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AmpedeBase.framework;
+			remoteRef = 8E0045210B2CE2B100DA0C7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* AmpedeFxPlug-InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0043390B2CD6A200DA0C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0043450B2CD70700DA0C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E00458D0B2CE67A00DA0C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0045A70B2CE83600DA0C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048AF0B2F9C1C00DA0C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E004C3C0B30D30600DA0C7B /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048B40B2F9C3600DA0C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E004ADA0B3018F800DA0C7B /* AmpedeTestPlugIn.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048C20B2F9C5200DA0C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048CE0B2F9C6500DA0C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E004C8A0B30DD8C00DA0C7B /* AmpedeProductManager.m in Sources */,
+				8E0046AA0B2F627800DA0C7B /* AmpedeBaseEffectFxPlug.m in Sources */,
+				8E0041900B2BE6F700DA0C7B /* AmpedeGeneratorFxPlug.m in Sources */,
+				8E0042770B2BE88A00DA0C7B /* AmpedeFilterFxPlug.m in Sources */,
+				8E00427D0B2BE89500DA0C7B /* AmpedeTransitionFxPlug.m in Sources */,
+				8E004C0B0B30D13200DA0C7B /* NSObject+AmpedeFxPlugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E00433A0B2CD6A200DA0C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0046370B2E688F00DA0C7B /* AmpedeTestPlugIn.mm in Sources */,
+				8E0046480B2E6D2A00DA0C7B /* NSObject+AmpedeFxPlugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0043460B2CD70700DA0C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0046890B2E731A00DA0C7B /* AmpedeTestProduct.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E00458E0B2CE67A00DA0C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0045A80B2CE83600DA0C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048B00B2F9C1C00DA0C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E00498A0B2FFD2E00DA0C7B /* AmpedeTestProduct.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048B50B2F9C3600DA0C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E004AD80B3018EC00DA0C7B /* AmpedeTestPlugIn.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048C30B2F9C5200DA0C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0048CF0B2F9C6500DA0C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E0045D00B2CEB1E00DA0C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E00433C0B2CD6A200DA0C7B /* PDFLink App */;
+			targetProxy = 8E0045CF0B2CEB1E00DA0C7B /* PBXContainerItemProxy */;
+		};
+		8E0045D40B2CEB2300DA0C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E0043480B2CD70700DA0C7B /* PDFLink PlugIn */;
+			targetProxy = 8E0045D30B2CEB2300DA0C7B /* PBXContainerItemProxy */;
+		};
+		8E0045D60B2CEB3700DA0C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* AmpedeFxPlug Framework */;
+			targetProxy = 8E0045D50B2CEB3700DA0C7B /* PBXContainerItemProxy */;
+		};
+		8E0045D80B2CEB6700DA0C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E0045AA0B2CE83600DA0C7B /* PDFLink Bundle */;
+			targetProxy = 8E0045D70B2CEB6700DA0C7B /* PBXContainerItemProxy */;
+		};
+		8E0045DA0B2CEB7C00DA0C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AmpedeBase;
+			targetProxy = 8E0045D90B2CEB7C00DA0C7B /* PBXContainerItemProxy */;
+		};
+		8E004A220B3000F500DA0C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* AmpedeFxPlug Framework */;
+			targetProxy = 8E004A210B3000F500DA0C7B /* PBXContainerItemProxy */;
+		};
+		8E004AD50B3018D400DA0C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E0048B70B2F9C3600DA0C7B /* Test PlugIn */;
+			targetProxy = 8E004AD40B3018D400DA0C7B /* PBXContainerItemProxy */;
+		};
+		8E004ADC0B30191B00DA0C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* AmpedeFxPlug Framework */;
+			targetProxy = 8E004ADB0B30191B00DA0C7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* AmpedeFxPlug-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = "AmpedeFxPlug-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		8E0046550B2E6F0000DA0C7B /* AmpedeTestPlugIn.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0046560B2E6F0000DA0C7B /* English */,
+			);
+			name = AmpedeTestPlugIn.strings;
+			sourceTree = "<group>";
+		};
+		8E0047D90B2F8A2900DA0C7B /* PDFLink-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0047D70B2F8A1C00DA0C7B /* English */,
+			);
+			name = "PDFLink-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		8E0047F40B2F8B7B00DA0C7B /* Test-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0047F00B2F8B7000DA0C7B /* English */,
+			);
+			name = "Test-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		8E004C270B30D26300DA0C7B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E004C210B30D24100DA0C7B /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "$(AMPEDEFXLPUG_FRAMEWORK_MINOR_COMPATIBILITY_VERSION)";
+				DYLIB_CURRENT_VERSION = "$(AMPEDEFXLPUG_FRAMEWORK_MINOR_CURRENT_VERSION)";
+				FRAMEWORK_VERSION = "$(AMPEDEFXLPUG_FRAMEWORK_MAJOR_VERSION)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AmpedeFxPlug_Prefix.pch;
+				INFOPLIST_FILE = "AmpedeFxPlug-Info.plist";
+				INSTALL_PATH = /Library/Frameworks;
+				PRODUCT_NAME = AmpedeFxPlug;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AmpedeFxPlug_Prefix.pch;
+				INFOPLIST_FILE = "AmpedeFxPlug-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = AmpedeFxPlug;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0047000B2F80D100DA0C7B /* AmpedeFxPlug.xcconfig */;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					x86,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		8E0043410B2CD6A300DA0C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Build/Debug\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "PDFLink_App-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PDFLink;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8E0043420B2CD6A300DA0C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Build/Debug\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "PDFLink_App-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AmpedePDF;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8E00434D0B2CD70800DA0C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "PDFLink_PlugIn-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PDFLink;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8E00434E0B2CD70800DA0C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "PDFLink_PlugIn-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AmpedePDFPlugin;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8E0045940B2CE67B00DA0C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "PDFLink-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PDFLink;
+				WRAPPER_EXTENSION = fxplug;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8E0045950B2CE67B00DA0C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "PDFLink-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "AmpedePDF FxPlug";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8E0045AE0B2CE83700DA0C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "PDFLink_Bundle-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PDFLink;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8E0045AF0B2CE83700DA0C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "PDFLink_Bundle-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "AmpedePDF LicenseControl";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8E0048BB0B2F9C3700DA0C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E004CE70B30F74600DA0C7B /* AmpedeFxPlugProduct.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"$(OTHER_LDFLAGS)",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = fxplug;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8E0048BC0B2F9C3700DA0C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8E0048BE0B2F9C3700DA0C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E004E030B32351D00DA0C7B /* AmpedeTestPlugIn.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Build/Debug\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Test_PlugIn-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				USER_HEADER_SEARCH_PATHS = "~/AmpedeFxPlug";
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8E0048BF0B2F9C3700DA0C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Build/Debug\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Test PlugIn-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Test PlugIn";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8E0048CA0B2F9C5300DA0C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Test_App-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8E0048CB0B2F9C5300DA0C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Test_App-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Test App";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8E0048D50B2F9C6600DA0C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Test_Bundle-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8E0048D60B2F9C6600DA0C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Test_Bundle-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Test Bundle";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "AmpedeFxPlug Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "AmpedeFxPlug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0043400B2CD6A300DA0C7B /* Build configuration list for PBXNativeTarget "PDFLink App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0043410B2CD6A300DA0C7B /* Debug */,
+				8E0043420B2CD6A300DA0C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E00434C0B2CD70800DA0C7B /* Build configuration list for PBXNativeTarget "PDFLink PlugIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E00434D0B2CD70800DA0C7B /* Debug */,
+				8E00434E0B2CD70800DA0C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0045930B2CE67B00DA0C7B /* Build configuration list for PBXNativeTarget "PDFLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0045940B2CE67B00DA0C7B /* Debug */,
+				8E0045950B2CE67B00DA0C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0045AD0B2CE83700DA0C7B /* Build configuration list for PBXNativeTarget "PDFLink Bundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0045AE0B2CE83700DA0C7B /* Debug */,
+				8E0045AF0B2CE83700DA0C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0048BA0B2F9C3700DA0C7B /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0048BB0B2F9C3700DA0C7B /* Debug */,
+				8E0048BC0B2F9C3700DA0C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0048BD0B2F9C3700DA0C7B /* Build configuration list for PBXNativeTarget "Test PlugIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0048BE0B2F9C3700DA0C7B /* Debug */,
+				8E0048BF0B2F9C3700DA0C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0048C90B2F9C5300DA0C7B /* Build configuration list for PBXNativeTarget "Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0048CA0B2F9C5300DA0C7B /* Debug */,
+				8E0048CB0B2F9C5300DA0C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0048D40B2F9C6600DA0C7B /* Build configuration list for PBXNativeTarget "Test Bundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0048D50B2F9C6600DA0C7B /* Debug */,
+				8E0048D60B2F9C6600DA0C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

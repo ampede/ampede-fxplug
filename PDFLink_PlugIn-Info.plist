@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ampede.plugin.ampedepdf</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+    
+	<key>LSHasLocalizedDisplayName</key>
+	<true/>
+
+    <key>DSAmpedeFxPlugFrameworkMajorVersion</key>
+    <string>$(AMPEDEFXLPUG_FRAMEWORK_MAJOR_VERSION)</string>
+    <key>DSAmpedeFxPlugFrameworkMinorCurrentVersion</key>
+    <string>$(AMPEDEFXLPUG_FRAMEWORK_MINOR_CURRENT_VERSION)</string>
+    <key>DSAmpedeFxPlugFrameworkMinorCompatibilityVersion</key>
+    <string>$(AMPEDEFXLPUG_FRAMEWORK_MINOR_COMPATIBILITY_VERSION)</string>
+
+	<key>ProPlugDictionaryVersion</key>
+	<string>1.0</string>
+	<key>ProPlugDynamicRegistration</key>
+	<false/>
+	<key>ProPlugPlugInGroupList</key>
+	<array>
+		<dict>
+			<key>groupName</key>
+			<string>Ampede</string>
+			<key>uuid</key>
+			<string>828C5C87-6EEE-4D65-98E0-B792C025319F</string>
+		</dict>
+	</array>
+	<key>ProPlugPlugInList</key>
+	<array>
+		<dict>
+			<key>className</key>
+			<string>AmpedePDF</string>
+			<key>displayName</key>
+			<string>AmpedePDF::FxPlug Name</string>
+			<key>group</key>
+			<string>828C5C87-6EEE-4D65-98E0-B792C025319F</string>
+			<key>infoString</key>
+			<string>AmpedePDF::FxPlug Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxGenerator</string>
+			</array>
+			<key>uuid</key>
+			<string>CDDDB4A0-E80F-468C-9BF6-FED7F378AF77</string>
+		</dict>
+	</array>
+	<key>ProPlugProtocolList</key>
+	<array>
+		<dict>
+			<key>protocolName</key>
+			<string>FxParameterCreationAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxParameterRetrievalAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxParameterSettingAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

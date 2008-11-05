@@ -1,0 +1,4 @@
+
+#include "AmpedeFxPlugPlugIn.xcconfig"
+
+AMPEDEFXLPUG_PLUGIN_VERSION = 1 // update this whenever you make a change to the plugin
